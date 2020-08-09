@@ -1,0 +1,29 @@
+{
+    "spec_version"     : "v1.2",
+    "$kref"            : "#/ckan/spacedock/???",
+    "$vref"            : "#/ckan/ksp-avc",
+    "identifier"       : "TweakScaleCompanion_OPT",
+    "name"             : "TweakScale Companion for Orbit Portal Technologies (OPT)",
+    "abstract"         : "Adds (up to date) TweakScale /L patches for Orbit Portal Technologies (OPT)."
+    "license"          : [ "GPL-2.0", "restricted" ],
+    "release_status"   : "development",
+    "x_netkan_force_v" : true,
+    "author": [
+        "LisiasT"
+    ],
+    "install" : [
+        {
+            "file" : "GameData/TweakScaleCompanion/OPT",
+            "install_to" : "GameData/TweakScaleCompanion"
+        }
+    ],
+    "resources": {
+        "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/192216-*",
+        "repository": "https://github.com/net-lisias-ksp/TweakScaleCompanion_OPT"
+    },
+    "depends" : [
+        { "name" : "ModuleManager", "min_version" : "3.1.1" },
+        { "name" : "TweakScaleCore", "min_version" : "2.4.4" },
+        { "name" : "OPT" }
+    ]
+}
