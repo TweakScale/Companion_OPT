@@ -23,7 +23,7 @@ deploy_bin() {
 	if [ -f "./bin/Release/$DLL.dll" ] ; then
 		cp "./bin/Release/$DLL.dll" "./GameData/$TARGETBINDIR/"
 		if [ -d "${KSP_DEV}/GameData/$TARGETBINDIR/" ] ; then
-			cp "./bin/Release/$DLL.dll" "${KSP_DEV/}GameData/$TARGETBINDIR/"
+			cp "./bin/Release/$DLL.dll" "${KSP_DEV}GameData/$TARGETBINDIR/"
 		fi
 	fi
 	if [ -f "./bin/Debug/$DLL.dll" ] ; then
@@ -46,7 +46,7 @@ deploy_gamedata() {
 	if [ -f "./bin/Release/$DLL" ] ; then
 		cp "./bin/Release/$DLL" "./GameData/${PLACE}_$DLL"
 		if [ -d "${KSP_DEV}/GameData/" ] ; then
-			cp "./bin/Release/$DLL" "${KSP_DEV/}GameData/${PLACE}_$DLL"
+			cp "./bin/Release/$DLL" "${KSP_DEV}GameData/${PLACE}_$DLL"
 		fi
 	fi
 	if [ -f "./bin/Debug/$DLL" ] ; then
