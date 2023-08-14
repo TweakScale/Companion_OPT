@@ -21,7 +21,7 @@ Adds (up to date) TweakScale /L patches for Orbit Portal Technologies (OPT).
 
 ## Description
 
-**TweakScale Companion for Orbit Portal Technologies (OPT)** adds (up to date) [TweakScale /L](https://forum.kerbalspaceprogram.com/index.php?/topic/179030-*ksp-141-tweakscale-under-lisias-management-24310-2019-1030*/) support for ( surprisingly :P ) OPT [Continued](https://forum.kerbalspaceprogram.com/index.php?/topic/196187-*/), [Legacy](https://spacedock.info/mod/711/Orbit%20Portal%20Technology%20%5BOPT%5D%20Spaceplane%20Parts) and [Classic](https://forum.kerbalspaceprogram.com/index.php?/topic/87956-*/).
+**TweakScale Companion for Orbit Portal Technologies (OPT)** adds (up to date) [TweakScale /L](https://forum.kerbalspaceprogram.com/index.php?/topic/179030-*ksp-141-tweakscale-under-lisias-management-24310-2019-1030*/) support for ( surprisingly :P ) OPT Continued, Legacy and Classic.
 
 
 ## Installation
